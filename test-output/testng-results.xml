@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="17" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-11T16:04:31 HKT" name="allbrowser" finished-at="2024-08-11T16:09:47 HKT" duration-ms="315766">
+    <groups>
+    </groups>
+    <test started-at="2024-08-11T16:04:31 HKT" name="firefoxtest" finished-at="2024-08-11T16:09:09 HKT" duration-ms="277759">
+      <class name="meme_staking.STAKELAND.TestCase08">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase08@645aa696]" started-at="2024-08-11T16:07:26 HKT" name="launch" finished-at="2024-08-11T16:08:10 HKT" duration-ms="43767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="CONNECT_YOUR_WALLET_button()[pri:0, instance:meme_staking.STAKELAND.TestCase08@645aa696]" started-at="2024-08-11T16:08:10 HKT" name="CONNECT_YOUR_WALLET_button" finished-at="2024-08-11T16:08:16 HKT" duration-ms="6771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CONNECT_YOUR_WALLET_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase08@645aa696]" started-at="2024-08-11T16:08:16 HKT" name="quit" finished-at="2024-08-11T16:08:27 HKT" duration-ms="10982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase08 -->
+      <class name="meme_staking.STAKELAND.TestCase02">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase02@5e2c3d18]" started-at="2024-08-11T16:05:23 HKT" name="launch" finished-at="2024-08-11T16:05:45 HKT" duration-ms="21835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_move_change_value()[pri:0, instance:meme_staking.STAKELAND.TestCase02@5e2c3d18]" started-at="2024-08-11T16:05:45 HKT" name="slider_functions_move_change_value" finished-at="2024-08-11T16:05:54 HKT" duration-ms="9389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_move_change_value -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase02@5e2c3d18]" started-at="2024-08-11T16:05:54 HKT" name="quit" finished-at="2024-08-11T16:06:02 HKT" duration-ms="7748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase02 -->
+      <class name="meme_staking.STAKELAND.TestCase01">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase01@7a35b0f5]" started-at="2024-08-11T16:04:31 HKT" name="launch" finished-at="2024-08-11T16:04:59 HKT" duration-ms="27723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="sliderFunctionsSync()[pri:0, instance:meme_staking.STAKELAND.TestCase01@7a35b0f5]" started-at="2024-08-11T16:04:59 HKT" name="sliderFunctionsSync" finished-at="2024-08-11T16:05:12 HKT" duration-ms="13013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderFunctionsSync -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase01@7a35b0f5]" started-at="2024-08-11T16:05:12 HKT" name="quit" finished-at="2024-08-11T16:05:23 HKT" duration-ms="11087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase01 -->
+      <class name="meme_staking.STAKELAND.TestCase06">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase06@5b218417]" started-at="2024-08-11T16:06:52 HKT" name="launch" finished-at="2024-08-11T16:07:26 HKT" duration-ms="33755" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:1067, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20188, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:1067/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 682c298d-1701-455c-9e6d-a5531ebc777a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:1067, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20188, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:1067/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 682c298d-1701-455c-9e6d-a5531ebc777a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at meme_staking.STAKELAND.Meme_Staking_Launch_Quit.launch(Meme_Staking_Launch_Quit.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="refresh_check()[pri:0, instance:meme_staking.STAKELAND.TestCase06@5b218417]" started-at="2024-08-11T16:07:26 HKT" name="refresh_check" finished-at="2024-08-11T16:07:26 HKT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:1067, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20188, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:1067/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 682c298d-1701-455c-9e6d-a5531ebc777a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:1067, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20188, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:1067/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 682c298d-1701-455c-9e6d-a5531ebc777a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at meme_staking.STAKELAND.Meme_Staking_Launch_Quit.launch(Meme_Staking_Launch_Quit.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh_check -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase06@5b218417]" started-at="2024-08-11T16:07:26 HKT" name="quit" finished-at="2024-08-11T16:07:26 HKT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase06 -->
+      <class name="meme_staking.STAKELAND.TestCase05">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase05@6caf0677]" started-at="2024-08-11T16:08:27 HKT" name="launch" finished-at="2024-08-11T16:09:09 HKT" duration-ms="41454" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:36264, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17292, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:36264/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 915524af-a114-4898-8c73-873e1a29a1c6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:36264, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17292, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:36264/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 915524af-a114-4898-8c73-873e1a29a1c6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at meme_staking.STAKELAND.Meme_Staking_Launch_Quit.launch(Meme_Staking_Launch_Quit.java:44)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_NEW_TO_STAKELAND_button()[pri:0, instance:meme_staking.STAKELAND.TestCase05@6caf0677]" started-at="2024-08-11T16:09:09 HKT" name="Enabled_NEW_TO_STAKELAND_button" finished-at="2024-08-11T16:09:09 HKT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:36264, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17292, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:36264/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 915524af-a114-4898-8c73-873e1a29a1c6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:36264, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17292, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:36264/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 915524af-a114-4898-8c73-873e1a29a1c6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at meme_staking.STAKELAND.Meme_Staking_Launch_Quit.launch(Meme_Staking_Launch_Quit.java:44)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_NEW_TO_STAKELAND_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase05@6caf0677]" started-at="2024-08-11T16:09:09 HKT" name="quit" finished-at="2024-08-11T16:09:09 HKT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase05 -->
+      <class name="meme_staking.STAKELAND.TestCase04">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase04@cc43f62]" started-at="2024-08-11T16:06:24 HKT" name="launch" finished-at="2024-08-11T16:06:52 HKT" duration-ms="28122" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:23054, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14220, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:23054/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e878c67b-74ac-4720-be4c-685740fa6ffa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:23054, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14220, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:23054/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e878c67b-74ac-4720-be4c-685740fa6ffa
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at meme_staking.STAKELAND.Meme_Staking_Launch_Quit.launch(Meme_Staking_Launch_Quit.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_button_Base_button()[pri:0, instance:meme_staking.STAKELAND.TestCase04@cc43f62]" started-at="2024-08-11T16:06:52 HKT" name="Enabled_button_Base_button" finished-at="2024-08-11T16:06:52 HKT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:23054, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14220, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:23054/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e878c67b-74ac-4720-be4c-685740fa6ffa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:23054, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14220, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:23054/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e878c67b-74ac-4720-be4c-685740fa6ffa
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at meme_staking.STAKELAND.Meme_Staking_Launch_Quit.launch(Meme_Staking_Launch_Quit.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_button_Base_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase04@cc43f62]" started-at="2024-08-11T16:06:52 HKT" name="quit" finished-at="2024-08-11T16:06:52 HKT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase04 -->
+      <class name="meme_staking.STAKELAND.TestCase03">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase03@2cb4893b]" started-at="2024-08-11T16:06:02 HKT" name="launch" finished-at="2024-08-11T16:06:24 HKT" duration-ms="21808" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:9955, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17060, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9955/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 64bd8226-b70b-4540-b2be-1713d91ffeff]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:9955, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17060, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9955/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 64bd8226-b70b-4540-b2be-1713d91ffeff
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at meme_staking.STAKELAND.Meme_Staking_Launch_Quit.launch(Meme_Staking_Launch_Quit.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_balance_stake_element()[pri:0, instance:meme_staking.STAKELAND.TestCase03@2cb4893b]" started-at="2024-08-11T16:06:24 HKT" name="slider_functions_balance_stake_element" finished-at="2024-08-11T16:06:24 HKT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:9955, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17060, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9955/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 64bd8226-b70b-4540-b2be-1713d91ffeff]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/button/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:9955, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17060, moz:profile: C:\Users\85264\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9955/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 64bd8226-b70b-4540-b2be-1713d91ffeff
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at meme_staking.STAKELAND.Meme_Staking_Launch_Quit.launch(Meme_Staking_Launch_Quit.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_balance_stake_element -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase03@2cb4893b]" started-at="2024-08-11T16:06:24 HKT" name="quit" finished-at="2024-08-11T16:06:24 HKT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase03 -->
+    </test> <!-- firefoxtest -->
+    <test started-at="2024-08-11T16:04:31 HKT" name="chromtest" finished-at="2024-08-11T16:09:26 HKT" duration-ms="295172">
+      <class name="meme_staking.STAKELAND.TestCase08">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase08@15bb5034]" started-at="2024-08-11T16:07:28 HKT" name="launch" finished-at="2024-08-11T16:07:58 HKT" duration-ms="29903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="CONNECT_YOUR_WALLET_button()[pri:0, instance:meme_staking.STAKELAND.TestCase08@15bb5034]" started-at="2024-08-11T16:07:58 HKT" name="CONNECT_YOUR_WALLET_button" finished-at="2024-08-11T16:08:04 HKT" duration-ms="5422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CONNECT_YOUR_WALLET_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase08@15bb5034]" started-at="2024-08-11T16:08:04 HKT" name="quit" finished-at="2024-08-11T16:08:24 HKT" duration-ms="20081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase08 -->
+      <class name="meme_staking.STAKELAND.TestCase02">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase02@5b1669c0]" started-at="2024-08-11T16:05:12 HKT" name="launch" finished-at="2024-08-11T16:05:32 HKT" duration-ms="19196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_move_change_value()[pri:0, instance:meme_staking.STAKELAND.TestCase02@5b1669c0]" started-at="2024-08-11T16:05:32 HKT" name="slider_functions_move_change_value" finished-at="2024-08-11T16:05:41 HKT" duration-ms="9595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_move_change_value -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase02@5b1669c0]" started-at="2024-08-11T16:05:41 HKT" name="quit" finished-at="2024-08-11T16:05:46 HKT" duration-ms="5207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase02 -->
+      <class name="meme_staking.STAKELAND.TestCase01">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase01@6221a451]" started-at="2024-08-11T16:04:31 HKT" name="launch" finished-at="2024-08-11T16:04:51 HKT" duration-ms="20034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="sliderFunctionsSync()[pri:0, instance:meme_staking.STAKELAND.TestCase01@6221a451]" started-at="2024-08-11T16:04:51 HKT" name="sliderFunctionsSync" finished-at="2024-08-11T16:05:06 HKT" duration-ms="14378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderFunctionsSync -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase01@6221a451]" started-at="2024-08-11T16:05:06 HKT" name="quit" finished-at="2024-08-11T16:05:12 HKT" duration-ms="6806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase01 -->
+      <class name="meme_staking.STAKELAND.TestCase06">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase06@7d0b7e3c]" started-at="2024-08-11T16:06:52 HKT" name="launch" finished-at="2024-08-11T16:07:17 HKT" duration-ms="24218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="refresh_check()[pri:0, instance:meme_staking.STAKELAND.TestCase06@7d0b7e3c]" started-at="2024-08-11T16:07:17 HKT" name="refresh_check" finished-at="2024-08-11T16:07:18 HKT" duration-ms="1304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh_check -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase06@7d0b7e3c]" started-at="2024-08-11T16:07:18 HKT" name="quit" finished-at="2024-08-11T16:07:28 HKT" duration-ms="10309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase06 -->
+      <class name="meme_staking.STAKELAND.TestCase05">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase05@4b741d6d]" started-at="2024-08-11T16:08:24 HKT" name="launch" finished-at="2024-08-11T16:08:47 HKT" duration-ms="23450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_NEW_TO_STAKELAND_button()[pri:0, instance:meme_staking.STAKELAND.TestCase05@4b741d6d]" started-at="2024-08-11T16:08:47 HKT" name="Enabled_NEW_TO_STAKELAND_button" finished-at="2024-08-11T16:09:08 HKT" duration-ms="20701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_NEW_TO_STAKELAND_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase05@4b741d6d]" started-at="2024-08-11T16:09:08 HKT" name="quit" finished-at="2024-08-11T16:09:26 HKT" duration-ms="18431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase05 -->
+      <class name="meme_staking.STAKELAND.TestCase04">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase04@6e9175d8]" started-at="2024-08-11T16:06:17 HKT" name="launch" finished-at="2024-08-11T16:06:38 HKT" duration-ms="21365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_button_Base_button()[pri:0, instance:meme_staking.STAKELAND.TestCase04@6e9175d8]" started-at="2024-08-11T16:06:38 HKT" name="Enabled_button_Base_button" finished-at="2024-08-11T16:06:47 HKT" duration-ms="8767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_button_Base_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase04@6e9175d8]" started-at="2024-08-11T16:06:47 HKT" name="quit" finished-at="2024-08-11T16:06:52 HKT" duration-ms="5539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase04 -->
+      <class name="meme_staking.STAKELAND.TestCase03">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase03@78e4deb0]" started-at="2024-08-11T16:05:46 HKT" name="launch" finished-at="2024-08-11T16:06:04 HKT" duration-ms="17227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_balance_stake_element()[pri:0, instance:meme_staking.STAKELAND.TestCase03@78e4deb0]" started-at="2024-08-11T16:06:04 HKT" name="slider_functions_balance_stake_element" finished-at="2024-08-11T16:06:11 HKT" duration-ms="7616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_balance_stake_element -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase03@78e4deb0]" started-at="2024-08-11T16:06:11 HKT" name="quit" finished-at="2024-08-11T16:06:17 HKT" duration-ms="5399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase03 -->
+    </test> <!-- chromtest -->
+    <test started-at="2024-08-11T16:04:31 HKT" name="edgetest" finished-at="2024-08-11T16:09:47 HKT" duration-ms="315766">
+      <class name="meme_staking.STAKELAND.TestCase08">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase08@8458f04]" started-at="2024-08-11T16:08:03 HKT" name="launch" finished-at="2024-08-11T16:08:34 HKT" duration-ms="30154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="CONNECT_YOUR_WALLET_button()[pri:0, instance:meme_staking.STAKELAND.TestCase08@8458f04]" started-at="2024-08-11T16:08:34 HKT" name="CONNECT_YOUR_WALLET_button" finished-at="2024-08-11T16:08:43 HKT" duration-ms="9548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CONNECT_YOUR_WALLET_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase08@8458f04]" started-at="2024-08-11T16:08:43 HKT" name="quit" finished-at="2024-08-11T16:08:57 HKT" duration-ms="13667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase08 -->
+      <class name="meme_staking.STAKELAND.TestCase02">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase02@72035809]" started-at="2024-08-11T16:05:14 HKT" name="launch" finished-at="2024-08-11T16:05:35 HKT" duration-ms="21078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_move_change_value()[pri:0, instance:meme_staking.STAKELAND.TestCase02@72035809]" started-at="2024-08-11T16:05:35 HKT" name="slider_functions_move_change_value" finished-at="2024-08-11T16:05:44 HKT" duration-ms="9493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_move_change_value -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase02@72035809]" started-at="2024-08-11T16:05:44 HKT" name="quit" finished-at="2024-08-11T16:05:52 HKT" duration-ms="7533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase02 -->
+      <class name="meme_staking.STAKELAND.TestCase01">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase01@5afa3c9]" started-at="2024-08-11T16:04:31 HKT" name="launch" finished-at="2024-08-11T16:04:51 HKT" duration-ms="19717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="sliderFunctionsSync()[pri:0, instance:meme_staking.STAKELAND.TestCase01@5afa3c9]" started-at="2024-08-11T16:04:51 HKT" name="sliderFunctionsSync" finished-at="2024-08-11T16:05:06 HKT" duration-ms="15166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderFunctionsSync -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase01@5afa3c9]" started-at="2024-08-11T16:05:06 HKT" name="quit" finished-at="2024-08-11T16:05:14 HKT" duration-ms="7517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase01 -->
+      <class name="meme_staking.STAKELAND.TestCase06">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase06@606e4010]" started-at="2024-08-11T16:07:03 HKT" name="launch" finished-at="2024-08-11T16:07:41 HKT" duration-ms="37419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="refresh_check()[pri:0, instance:meme_staking.STAKELAND.TestCase06@606e4010]" started-at="2024-08-11T16:07:41 HKT" name="refresh_check" finished-at="2024-08-11T16:07:43 HKT" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh_check -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase06@606e4010]" started-at="2024-08-11T16:07:43 HKT" name="quit" finished-at="2024-08-11T16:08:03 HKT" duration-ms="20595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase06 -->
+      <class name="meme_staking.STAKELAND.TestCase05">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase05@48075da3]" started-at="2024-08-11T16:08:57 HKT" name="launch" finished-at="2024-08-11T16:09:30 HKT" duration-ms="33523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_NEW_TO_STAKELAND_button()[pri:0, instance:meme_staking.STAKELAND.TestCase05@48075da3]" started-at="2024-08-11T16:09:30 HKT" name="Enabled_NEW_TO_STAKELAND_button" finished-at="2024-08-11T16:09:40 HKT" duration-ms="9766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_NEW_TO_STAKELAND_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase05@48075da3]" started-at="2024-08-11T16:09:40 HKT" name="quit" finished-at="2024-08-11T16:09:47 HKT" duration-ms="6744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase05 -->
+      <class name="meme_staking.STAKELAND.TestCase04">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase04@18271936]" started-at="2024-08-11T16:06:26 HKT" name="launch" finished-at="2024-08-11T16:06:45 HKT" duration-ms="19225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_button_Base_button()[pri:0, instance:meme_staking.STAKELAND.TestCase04@18271936]" started-at="2024-08-11T16:06:45 HKT" name="Enabled_button_Base_button" finished-at="2024-08-11T16:06:54 HKT" duration-ms="8739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_button_Base_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase04@18271936]" started-at="2024-08-11T16:06:54 HKT" name="quit" finished-at="2024-08-11T16:07:03 HKT" duration-ms="9800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase04 -->
+      <class name="meme_staking.STAKELAND.TestCase03">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase03@909217e]" started-at="2024-08-11T16:05:52 HKT" name="launch" finished-at="2024-08-11T16:06:10 HKT" duration-ms="18394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_balance_stake_element()[pri:0, instance:meme_staking.STAKELAND.TestCase03@909217e]" started-at="2024-08-11T16:06:10 HKT" name="slider_functions_balance_stake_element" finished-at="2024-08-11T16:06:19 HKT" duration-ms="8793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_balance_stake_element -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase03@909217e]" started-at="2024-08-11T16:06:19 HKT" name="quit" finished-at="2024-08-11T16:06:26 HKT" duration-ms="6693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase03 -->
+    </test> <!-- edgetest -->
+  </suite> <!-- allbrowser -->
+</testng-results>

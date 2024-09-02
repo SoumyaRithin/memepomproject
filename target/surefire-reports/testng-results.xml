@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-02T12:01:14 HKT" name="allbrowser" finished-at="2024-09-02T12:05:48 HKT" duration-ms="274199">
+    <groups>
+    </groups>
+    <test started-at="2024-09-02T12:01:14 HKT" name="edgetest" finished-at="2024-09-02T12:05:14 HKT" duration-ms="240122">
+      <class name="meme_staking.STAKELAND.TestCase08">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase08@6340e5f0]" started-at="2024-09-02T12:04:05 HKT" name="launch" finished-at="2024-09-02T12:04:22 HKT" duration-ms="17440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="CONNECT_YOUR_WALLET_button()[pri:0, instance:meme_staking.STAKELAND.TestCase08@6340e5f0]" started-at="2024-09-02T12:04:22 HKT" name="CONNECT_YOUR_WALLET_button" finished-at="2024-09-02T12:04:26 HKT" duration-ms="3632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CONNECT_YOUR_WALLET_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase08@6340e5f0]" started-at="2024-09-02T12:04:26 HKT" name="quit" finished-at="2024-09-02T12:04:35 HKT" duration-ms="9539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase08 -->
+      <class name="meme_staking.STAKELAND.TestCase02">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase02@f09733f]" started-at="2024-09-02T12:01:58 HKT" name="launch" finished-at="2024-09-02T12:02:16 HKT" duration-ms="18373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_move_change_value()[pri:0, instance:meme_staking.STAKELAND.TestCase02@f09733f]" started-at="2024-09-02T12:02:16 HKT" name="slider_functions_move_change_value" finished-at="2024-09-02T12:02:27 HKT" duration-ms="10402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_move_change_value -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase02@f09733f]" started-at="2024-09-02T12:02:27 HKT" name="quit" finished-at="2024-09-02T12:02:34 HKT" duration-ms="7018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase02 -->
+      <class name="meme_staking.STAKELAND.TestCase01">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase01@4b45a2f5]" started-at="2024-09-02T12:01:14 HKT" name="launch" finished-at="2024-09-02T12:01:36 HKT" duration-ms="22252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="sliderFunctionsSync()[pri:0, instance:meme_staking.STAKELAND.TestCase01@4b45a2f5]" started-at="2024-09-02T12:01:36 HKT" name="sliderFunctionsSync" finished-at="2024-09-02T12:01:51 HKT" duration-ms="15180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderFunctionsSync -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase01@4b45a2f5]" started-at="2024-09-02T12:01:51 HKT" name="quit" finished-at="2024-09-02T12:01:58 HKT" duration-ms="6765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase01 -->
+      <class name="meme_staking.STAKELAND.TestCase06">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase06@2794eab6]" started-at="2024-09-02T12:03:41 HKT" name="launch" finished-at="2024-09-02T12:03:57 HKT" duration-ms="16195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="refresh_check()[pri:0, instance:meme_staking.STAKELAND.TestCase06@2794eab6]" started-at="2024-09-02T12:03:57 HKT" name="refresh_check" finished-at="2024-09-02T12:03:58 HKT" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh_check -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase06@2794eab6]" started-at="2024-09-02T12:03:58 HKT" name="quit" finished-at="2024-09-02T12:04:05 HKT" duration-ms="6634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase06 -->
+      <class name="meme_staking.STAKELAND.TestCase05">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase05@45099dd3]" started-at="2024-09-02T12:04:35 HKT" name="launch" finished-at="2024-09-02T12:04:55 HKT" duration-ms="19392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_NEW_TO_STAKELAND_button()[pri:0, instance:meme_staking.STAKELAND.TestCase05@45099dd3]" started-at="2024-09-02T12:04:55 HKT" name="Enabled_NEW_TO_STAKELAND_button" finished-at="2024-09-02T12:05:07 HKT" duration-ms="12657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_NEW_TO_STAKELAND_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase05@45099dd3]" started-at="2024-09-02T12:05:07 HKT" name="quit" finished-at="2024-09-02T12:05:14 HKT" duration-ms="6419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase05 -->
+      <class name="meme_staking.STAKELAND.TestCase04">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase04@41a0aa7d]" started-at="2024-09-02T12:03:08 HKT" name="launch" finished-at="2024-09-02T12:03:26 HKT" duration-ms="17493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_button_Base_button()[pri:0, instance:meme_staking.STAKELAND.TestCase04@41a0aa7d]" started-at="2024-09-02T12:03:26 HKT" name="Enabled_button_Base_button" finished-at="2024-09-02T12:03:35 HKT" duration-ms="8726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_button_Base_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase04@41a0aa7d]" started-at="2024-09-02T12:03:35 HKT" name="quit" finished-at="2024-09-02T12:03:41 HKT" duration-ms="6513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase04 -->
+      <class name="meme_staking.STAKELAND.TestCase03">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase03@e350b40]" started-at="2024-09-02T12:02:34 HKT" name="launch" finished-at="2024-09-02T12:02:51 HKT" duration-ms="17301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_balance_stake_element()[pri:0, instance:meme_staking.STAKELAND.TestCase03@e350b40]" started-at="2024-09-02T12:02:51 HKT" name="slider_functions_balance_stake_element" finished-at="2024-09-02T12:03:00 HKT" duration-ms="9479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_balance_stake_element -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase03@e350b40]" started-at="2024-09-02T12:03:00 HKT" name="quit" finished-at="2024-09-02T12:03:08 HKT" duration-ms="7884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase03 -->
+    </test> <!-- edgetest -->
+    <test started-at="2024-09-02T12:01:14 HKT" name="chromtest" finished-at="2024-09-02T12:05:15 HKT" duration-ms="241314">
+      <class name="meme_staking.STAKELAND.TestCase08">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase08@4c1909a3]" started-at="2024-09-02T12:04:08 HKT" name="launch" finished-at="2024-09-02T12:04:27 HKT" duration-ms="18249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="CONNECT_YOUR_WALLET_button()[pri:0, instance:meme_staking.STAKELAND.TestCase08@4c1909a3]" started-at="2024-09-02T12:04:27 HKT" name="CONNECT_YOUR_WALLET_button" finished-at="2024-09-02T12:04:32 HKT" duration-ms="5047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CONNECT_YOUR_WALLET_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase08@4c1909a3]" started-at="2024-09-02T12:04:32 HKT" name="quit" finished-at="2024-09-02T12:04:39 HKT" duration-ms="7423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase08 -->
+      <class name="meme_staking.STAKELAND.TestCase02">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase02@2dc54ad4]" started-at="2024-09-02T12:02:03 HKT" name="launch" finished-at="2024-09-02T12:02:22 HKT" duration-ms="19074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_move_change_value()[pri:0, instance:meme_staking.STAKELAND.TestCase02@2dc54ad4]" started-at="2024-09-02T12:02:22 HKT" name="slider_functions_move_change_value" finished-at="2024-09-02T12:02:31 HKT" duration-ms="9247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_move_change_value -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase02@2dc54ad4]" started-at="2024-09-02T12:02:31 HKT" name="quit" finished-at="2024-09-02T12:02:38 HKT" duration-ms="7299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase02 -->
+      <class name="meme_staking.STAKELAND.TestCase01">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase01@2ed2d9cb]" started-at="2024-09-02T12:01:14 HKT" name="launch" finished-at="2024-09-02T12:01:37 HKT" duration-ms="22940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="sliderFunctionsSync()[pri:0, instance:meme_staking.STAKELAND.TestCase01@2ed2d9cb]" started-at="2024-09-02T12:01:37 HKT" name="sliderFunctionsSync" finished-at="2024-09-02T12:01:56 HKT" duration-ms="19497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderFunctionsSync -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase01@2ed2d9cb]" started-at="2024-09-02T12:01:56 HKT" name="quit" finished-at="2024-09-02T12:02:03 HKT" duration-ms="6723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase01 -->
+      <class name="meme_staking.STAKELAND.TestCase06">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase06@4b0d79fc]" started-at="2024-09-02T12:03:45 HKT" name="launch" finished-at="2024-09-02T12:04:02 HKT" duration-ms="17141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="refresh_check()[pri:0, instance:meme_staking.STAKELAND.TestCase06@4b0d79fc]" started-at="2024-09-02T12:04:02 HKT" name="refresh_check" finished-at="2024-09-02T12:04:03 HKT" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh_check -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase06@4b0d79fc]" started-at="2024-09-02T12:04:03 HKT" name="quit" finished-at="2024-09-02T12:04:08 HKT" duration-ms="5200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase06 -->
+      <class name="meme_staking.STAKELAND.TestCase05">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase05@428640fa]" started-at="2024-09-02T12:04:39 HKT" name="launch" finished-at="2024-09-02T12:04:59 HKT" duration-ms="19901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_NEW_TO_STAKELAND_button()[pri:0, instance:meme_staking.STAKELAND.TestCase05@428640fa]" started-at="2024-09-02T12:04:59 HKT" name="Enabled_NEW_TO_STAKELAND_button" finished-at="2024-09-02T12:05:10 HKT" duration-ms="10818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_NEW_TO_STAKELAND_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase05@428640fa]" started-at="2024-09-02T12:05:10 HKT" name="quit" finished-at="2024-09-02T12:05:15 HKT" duration-ms="4923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase05 -->
+      <class name="meme_staking.STAKELAND.TestCase04">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase04@55634720]" started-at="2024-09-02T12:03:15 HKT" name="launch" finished-at="2024-09-02T12:03:33 HKT" duration-ms="17894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_button_Base_button()[pri:0, instance:meme_staking.STAKELAND.TestCase04@55634720]" started-at="2024-09-02T12:03:33 HKT" name="Enabled_button_Base_button" finished-at="2024-09-02T12:03:40 HKT" duration-ms="7734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_button_Base_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase04@55634720]" started-at="2024-09-02T12:03:40 HKT" name="quit" finished-at="2024-09-02T12:03:45 HKT" duration-ms="4958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase04 -->
+      <class name="meme_staking.STAKELAND.TestCase03">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase03@4659191b]" started-at="2024-09-02T12:02:38 HKT" name="launch" finished-at="2024-09-02T12:02:59 HKT" duration-ms="20706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_balance_stake_element()[pri:0, instance:meme_staking.STAKELAND.TestCase03@4659191b]" started-at="2024-09-02T12:02:59 HKT" name="slider_functions_balance_stake_element" finished-at="2024-09-02T12:03:09 HKT" duration-ms="10236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_balance_stake_element -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase03@4659191b]" started-at="2024-09-02T12:03:09 HKT" name="quit" finished-at="2024-09-02T12:03:15 HKT" duration-ms="5253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase03 -->
+    </test> <!-- chromtest -->
+    <test started-at="2024-09-02T12:01:14 HKT" name="firefoxtest" finished-at="2024-09-02T12:05:48 HKT" duration-ms="274199">
+      <class name="meme_staking.STAKELAND.TestCase08">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase08@20140db9]" started-at="2024-09-02T12:04:44 HKT" name="launch" finished-at="2024-09-02T12:05:07 HKT" duration-ms="23121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="CONNECT_YOUR_WALLET_button()[pri:0, instance:meme_staking.STAKELAND.TestCase08@20140db9]" started-at="2024-09-02T12:05:07 HKT" name="CONNECT_YOUR_WALLET_button" finished-at="2024-09-02T12:05:11 HKT" duration-ms="3543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CONNECT_YOUR_WALLET_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase08@20140db9]" started-at="2024-09-02T12:05:11 HKT" name="quit" finished-at="2024-09-02T12:05:17 HKT" duration-ms="5845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase08 -->
+      <class name="meme_staking.STAKELAND.TestCase02">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase02@6574a52c]" started-at="2024-09-02T12:02:04 HKT" name="launch" finished-at="2024-09-02T12:02:30 HKT" duration-ms="26379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_move_change_value()[pri:0, instance:meme_staking.STAKELAND.TestCase02@6574a52c]" started-at="2024-09-02T12:02:30 HKT" name="slider_functions_move_change_value" finished-at="2024-09-02T12:02:39 HKT" duration-ms="9372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_move_change_value -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase02@6574a52c]" started-at="2024-09-02T12:02:39 HKT" name="quit" finished-at="2024-09-02T12:02:49 HKT" duration-ms="9573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase02 -->
+      <class name="meme_staking.STAKELAND.TestCase01">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase01@1ffaf86]" started-at="2024-09-02T12:01:14 HKT" name="launch" finished-at="2024-09-02T12:01:43 HKT" duration-ms="28977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="sliderFunctionsSync()[pri:0, instance:meme_staking.STAKELAND.TestCase01@1ffaf86]" started-at="2024-09-02T12:01:43 HKT" name="sliderFunctionsSync" finished-at="2024-09-02T12:01:55 HKT" duration-ms="12007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sliderFunctionsSync -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase01@1ffaf86]" started-at="2024-09-02T12:01:55 HKT" name="quit" finished-at="2024-09-02T12:02:04 HKT" duration-ms="8965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase01 -->
+      <class name="meme_staking.STAKELAND.TestCase06">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase06@60099951]" started-at="2024-09-02T12:04:06 HKT" name="launch" finished-at="2024-09-02T12:04:32 HKT" duration-ms="25829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="refresh_check()[pri:0, instance:meme_staking.STAKELAND.TestCase06@60099951]" started-at="2024-09-02T12:04:32 HKT" name="refresh_check" finished-at="2024-09-02T12:04:35 HKT" duration-ms="2715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh_check -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase06@60099951]" started-at="2024-09-02T12:04:35 HKT" name="quit" finished-at="2024-09-02T12:04:44 HKT" duration-ms="9553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase06 -->
+      <class name="meme_staking.STAKELAND.TestCase05">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase05@1e6a3214]" started-at="2024-09-02T12:05:17 HKT" name="launch" finished-at="2024-09-02T12:05:34 HKT" duration-ms="17591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_NEW_TO_STAKELAND_button()[pri:0, instance:meme_staking.STAKELAND.TestCase05@1e6a3214]" started-at="2024-09-02T12:05:34 HKT" name="Enabled_NEW_TO_STAKELAND_button" finished-at="2024-09-02T12:05:42 HKT" duration-ms="7730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_NEW_TO_STAKELAND_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase05@1e6a3214]" started-at="2024-09-02T12:05:42 HKT" name="quit" finished-at="2024-09-02T12:05:48 HKT" duration-ms="5564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase05 -->
+      <class name="meme_staking.STAKELAND.TestCase04">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase04@1c7696c6]" started-at="2024-09-02T12:03:30 HKT" name="launch" finished-at="2024-09-02T12:03:51 HKT" duration-ms="21382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Enabled_button_Base_button()[pri:0, instance:meme_staking.STAKELAND.TestCase04@1c7696c6]" started-at="2024-09-02T12:03:51 HKT" name="Enabled_button_Base_button" finished-at="2024-09-02T12:03:58 HKT" duration-ms="7372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enabled_button_Base_button -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase04@1c7696c6]" started-at="2024-09-02T12:03:58 HKT" name="quit" finished-at="2024-09-02T12:04:06 HKT" duration-ms="7841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase04 -->
+      <class name="meme_staking.STAKELAND.TestCase03">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:meme_staking.STAKELAND.TestCase03@6c1a5b54]" started-at="2024-09-02T12:02:49 HKT" name="launch" finished-at="2024-09-02T12:03:15 HKT" duration-ms="26071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="slider_functions_balance_stake_element()[pri:0, instance:meme_staking.STAKELAND.TestCase03@6c1a5b54]" started-at="2024-09-02T12:03:15 HKT" name="slider_functions_balance_stake_element" finished-at="2024-09-02T12:03:22 HKT" duration-ms="7259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider_functions_balance_stake_element -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:meme_staking.STAKELAND.TestCase03@6c1a5b54]" started-at="2024-09-02T12:03:22 HKT" name="quit" finished-at="2024-09-02T12:03:30 HKT" duration-ms="7388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- meme_staking.STAKELAND.TestCase03 -->
+    </test> <!-- firefoxtest -->
+  </suite> <!-- allbrowser -->
+</testng-results>
